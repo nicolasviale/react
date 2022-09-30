@@ -7,6 +7,11 @@ function Navbar(){
         <>
         <Navcontainer>
         <img className="logo" src={logo}  />
+        <div>
+            <a href="">Home</a>
+            <a href="">Mangas</a>
+            <a href="">Donde Encontrarnos</a>
+        </div>
         </Navcontainer>
         </>
     )
@@ -15,5 +20,7 @@ function Navbar(){
 export default Navbar
 
 const Navcontainer = styled.nav`
-
 `
+
+ 
+

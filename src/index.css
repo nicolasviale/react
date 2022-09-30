@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -5,6 +7,7 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
 
 body {
   margin: 0;
@@ -21,6 +24,24 @@ code {
 }
 
 .logo{
-  width: 30%;
-  height: 30%;
+  width: 10%;
+  height: 10%;
+  margin-left: 3%;
 }
+
+a{
+    color: black;
+    text-decoration: none;
+    margin-right: 15rem;
+    font-size: 130%;
+    font-family: 'Nunito', sans-serif;;
+}
+
+nav{
+background-color: rgb(123, 211, 206);
+display: flex;
+align-items: center;
+justify-content: space-between; 
+}
+
+
